@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "activerecord-import-sqlanywhere_jdbc_enhanced"
   spec.version       = Activerecord::Import::SqlanywhereJdbcEnhanced::VERSION
   spec.authors       = ["Sri Kalai"]
-  spec.email         = ["sriganeshkalai@gmail.com"]
+  spec.email         = ["sri.kalai@orchard-systems.co.uk"]
 
   spec.summary       = "Bulk insert extension for ActiveRecord and Sqlanywhere JDBC"
   spec.description   = "A library for bulk inserting data using ActiveRecord and Sqlanywhere JDBC."
