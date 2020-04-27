@@ -1,6 +1,6 @@
-require "active_record/connection_adapters/sqlanywhere_jdbc_enhanced_adapter"
+require "active_record/connection_adapters/sqlanywhere_jdbc_in4systems_adapter"
 require "activerecord-import/adapters/sqlanywhere_jdbc_enhanced_adapter"
 
-class ActiveRecord::ConnectionAdapters::SqlanywhereJdbcEnhancedAdapter
+class ActiveRecord::ConnectionAdapters::SqlanywhereJdbcIn4systemsAdapter
   include ActiveRecord::Import::SqlAnywhereJdbcEnhancedAdapter
 end
