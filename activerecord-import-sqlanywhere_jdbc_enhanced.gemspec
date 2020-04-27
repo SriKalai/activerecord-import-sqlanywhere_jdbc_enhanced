@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'activerecord/import/sqlanywhere_jdbc_enhanced/version'
+require 'activerecord-import-sqlanywhere_jdbc_enhanced/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "activerecord-import-sqlanywhere_jdbc_enhanced"
